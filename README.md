@@ -1,13 +1,14 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
+Hardhat project to write and deploy smart contracts for a Rock, paper, scissors game where game moves and results are stored on a local blockchain
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
+# In one terminal, start local blockchain node
 npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+
+# In another terminal, deploy the contract
+npx hardhat run scripts/deploy.js --network localhost
+
+# Then interact with the contract
+npx hardhat run scripts/interact.js --network localhost
 ```

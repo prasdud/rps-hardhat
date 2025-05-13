@@ -1,8 +1,8 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/prasdud/playground/node/rps-hardhat/contracts/SimpleStorage.sol": {
-      "lastModificationDate": 1747060934665,
+    "/home/prasdud/playground/rps-hardhat/contracts/SimpleStorage.sol": {
+      "lastModificationDate": 1747108273901,
       "contentHash": "dec0135dffdbf9ce5484e25ca533496a",
       "sourceName": "contracts/SimpleStorage.sol",
       "solcConfig": {
